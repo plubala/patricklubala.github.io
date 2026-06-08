@@ -51,5 +51,13 @@ Screenshots and visual documentation of:
 
 ---
 
+## Run locally
+1. Open the repository root in a browser, or start a simple server with:
+   python3 -m http.server 3000
+2. Visit http://localhost:3000
+
+## Deployment
+This repository includes a GitHub Pages workflow in .github/workflows/deploy-pages.yml so the static portfolio can publish automatically from the main branch.
+
 ## License
 This portfolio is licensed under the MIT License.
